@@ -195,6 +195,8 @@ Other scripts:
 
 All seeded accounts share the fake, development-only password **`Password123`** (override with `SEED_PASSWORD`). Never use these accounts in a real deployment.
 
+> **Local development only.** This password works only on a local database you seeded yourself. The live deployment's seeded accounts have different, private passwords. Never run the seed against the production database: it would wipe it and reset those accounts to this public password.
+
 | Role | Email |
 |------|-------|
 | Admin | `admin@learnhub.dev` |
