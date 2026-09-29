@@ -4,6 +4,25 @@ A full-stack MERN learning platform where **instructors** build and publish cour
 
 The project focuses on clean REST API design, server-side authorization (roles + resource ownership), and business rules enforced on the backend (progress and quiz scores are never trusted from the client).
 
+## Live Demo
+
+**[learnhub-lms-three.vercel.app](https://learnhub-lms-three.vercel.app)**
+
+> The backend runs on Render's free tier and sleeps when idle, so the first request after a while can take **~50 seconds** while it wakes up. After that, it responds normally.
+
+Register your own student or instructor account to try it out.
+
+**Highlights**
+- Course catalog with search, filters and pagination
+- Enrollment, lesson-by-lesson learning and server-calculated progress
+- Auto-graded quizzes with answer review and attempt history
+- Instructor course builder: sections, video lessons, quizzes, publish/unpublish
+- Role-based dashboards for students, instructors and admins
+
+**Stack:** React + Vite (hosted on Vercel) · Node.js + Express (hosted on Render) · MongoDB Atlas
+
+See [Features](#features) and [Tech stack](#tech-stack) below for details.
+
 ---
 
 ## Features
